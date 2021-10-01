@@ -1,0 +1,36 @@
+edossHesap = {
+    'ad': 'eda',
+    'hesapNo': '5426524',
+    'bakiye': 2000,
+    'ekHesap': 1000
+}
+
+def paraCek(hesap, miktar):
+    print(f"Merhaba {hesap['ad']}")
+
+    if (hesap['bakiye']>=miktar):
+        hesap['bakiye']-=miktar
+        print('PARANIZI ALABİLİRSİNİZ.')
+    else:
+        toplam = hesap['bakiye']+hesap['ekHesap']
+
+        if (toplam>=miktar):
+            ekHesapKullanimi = input('EK HESAP KULLANILSIN MI? e/h ')
+
+            if ekHesapKullanimi == 'e':
+                ekHesapKullanilacakMiktar = miktar - hesap['bakiye']
+                hesap['bakiye']=0
+                hesap['ekHesap']-=ekHesapKullanilacakMiktar
+                print('PARANIZI ALABİLİRSİNİZ')
+            else:
+                print(f"{hesap['hesapNo']} NOLU HESABINIZDA {hesap['bakiye']} TL BULUNMAKTADIR.")
+        else:
+            print('ÜZGÜNÜZ, BAKİYE YETERSİZ.')
+
+def bakiyeSorgula(hesap):
+    print(f"{hesap['hesapNo']} NOLU HESABINIZDA {hesap['bakiye']} TL BULUNMAKTADIR. EK HESAP LİMİTİNİZ İSE {hesap['ekHesap']} TL BULUNMAKTADIR.")
+
+paraCek(edossHesap, 4000)
+bakiyeSorgula(edossHesap)
+            
+print()
