@@ -1,0 +1,3 @@
+Hi! Im Edanur but I prefer it called just Eda. Living in Istanbul, Turkey. Im currently 18 years old and ım student at Beykent University. I'm studying Management Information Systems, it can also be called Business Informatics. 
+Im interested in Artificial Intelligence, Software Languages, Machine Learninng Operations, Entrepreneurship and Volunteering etc.
+You can follow me on socials, my username is same at every place! Also I want to add something. I have been attended to exchange program when I was in high school. I had an oppurtunity for travelling to Germany, Austria, Czech Republic, Macedonia, Greece, Bulgaria, Hungary, Slovakia and Serbia. Thanks for you to let me introduce myself.
